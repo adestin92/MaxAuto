@@ -21,12 +21,12 @@ To run this project locally or view the source code, follow these steps:
 3. Install dependencies by running npm install.
 4. Start the development server with npm start.
 
-'''bat
+```bat
 git clone 
-cd max-auto-repair-portfolio
+cd MAxAuto
 npm install
 npm start
-'''
+```
 
 
 ## Technologies Used
