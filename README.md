@@ -21,14 +21,12 @@ To run this project locally or view the source code, follow these steps:
 3. Install dependencies by running npm install.
 4. Start the development server with npm start.
 
-'''bash
-git clone https://github.com/adestin/MaxAuto.git
-
+'''bat
+git clone 
 cd max-auto-repair-portfolio
-
 npm install
-
 npm start
+'''
 
 
 ## Technologies Used
