@@ -1,0 +1,125 @@
+header {
+  background-color: #0a2541;
+  color: #ecf0f1;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-content {
+  background-color: rgb(10, 37, 65, 0.95);
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  display: none;
+  justify-content: center;
+}
+
+.dropdown-content a {
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  text-decoration: none;
+}
+
+.company-info {
+  font-size: 10pt;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.company-info div {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-contact li {
+  list-style: none;
+  font-size: 10pt;
+  margin: 0;
+}
+
+/* Apply styles directly to NavLink components */
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 15px;
+}
+
+nav a:hover {
+  color: #ff2d15; /* Change color on hover */
+}
+
+nav a.active {
+  color: #ff2d15; /* Style for active link */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.logo-container p {
+  margin-left: 10px;
+}
+
+nav {
+  transition: width 0.3s ease; /* Adjust transition for the nav width */
+  display: inline-flex;
+  width: fit-content;
+  width: 1360px;
+  height: 100px;
+  max-width: 100%;
+  margin: auto;
+}
+
+#menu-icon {
+  display: none;
+  margin-right: 10px;
+}
+
+.main-link {
+  margin-left: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-link ul {
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  #menu-icon {
+    display: block;
+    margin-top: 20px;
+
+    margin-left: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
