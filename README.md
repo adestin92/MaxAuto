@@ -6,12 +6,12 @@ This is a simple one-page React website designed as a portfolio project.
 MAX Auto Repair Portfolio Project is a fictional project created to demonstrate my proficiency in building responsive and visually appealing web applications using React. 
 
 ## Sections
-Homepage:
-Services:
-Testimonials:
-Projects: 
-Contact:
-footer:
+1. Header.
+2. Services.
+3. Testimonials.
+4. About.
+5. Contact.
+6. footer.
 
 ## Installation
 To run this project locally or view the source code, follow these steps:
@@ -22,11 +22,14 @@ To run this project locally or view the source code, follow these steps:
 4. Start the development server with npm start.
 
 '''bash
-Copy code
-git clone https://github.com/your-username/max-auto-repair-portfolio.git
+git clone https://github.com/adestin/MaxAuto.git
+
 cd max-auto-repair-portfolio
+
 npm install
+
 npm start
+
 
 ## Technologies Used
 React
