@@ -1,0 +1,36 @@
+body {
+  font-family: 'Work-Sans', sans-serif;
+  background-color: white;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-size: larger;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+button {
+  background-color: #ff2d15;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+@media (max-width: 800px) {
+  .about-us,
+  .features-benefits {
+    padding: 1rem;
+    transition: padding 0.3s ease;
+  }
+}
