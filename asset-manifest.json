@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MaxAuto/static/css/main.2ed319ae.css",
+    "main.js": "/MaxAuto/static/js/main.bb9061be.js",
+    "static/js/787.8334e65c.chunk.js": "/MaxAuto/static/js/787.8334e65c.chunk.js",
+    "static/media/slick.svg": "/MaxAuto/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MaxAuto/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MaxAuto/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MaxAuto/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MaxAuto/index.html",
+    "main.2ed319ae.css.map": "/MaxAuto/static/css/main.2ed319ae.css.map",
+    "main.bb9061be.js.map": "/MaxAuto/static/js/main.bb9061be.js.map",
+    "787.8334e65c.chunk.js.map": "/MaxAuto/static/js/787.8334e65c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ed319ae.css",
+    "static/js/main.bb9061be.js"
+  ]
+}
